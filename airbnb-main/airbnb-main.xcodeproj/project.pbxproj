@@ -296,7 +296,7 @@
 				TargetAttributes = {
 					756033EF1E69AB6C00B78E00 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 8FNSQJZ54L;
+						DevelopmentTeam = REU929A8B2;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -531,7 +531,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8FNSQJZ54L;
+				DEVELOPMENT_TEAM = REU929A8B2;
 				INFOPLIST_FILE = "airbnb-main/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -546,7 +546,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8FNSQJZ54L;
+				DEVELOPMENT_TEAM = REU929A8B2;
 				INFOPLIST_FILE = "airbnb-main/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
