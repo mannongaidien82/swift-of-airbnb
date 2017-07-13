@@ -56,18 +56,21 @@ class AirbnbExploreHeaderView: UIView {
             setupPagers()
         }
     }
-    let pageTabHeight: CGFloat = 50
+    //let pageTabHeight: CGFloat = 50
+    let pageTabHeight: CGFloat = 0
     
     let headerInputHeight: CGFloat = 50
     
     var minHeaderHeight: CGFloat {
         return 20 // status bar
             + headerInputHeight // input 1
+            + 20 //spacing
             + pageTabHeight
     }
     var midHeaderHeight: CGFloat {
         return 20 + 10 // status bar + spacing
             + headerInputHeight // input 1
+            + 10 //spacing
             + pageTabHeight
     }
     var maxHeaderHeight: CGFloat {
@@ -76,7 +79,8 @@ class AirbnbExploreHeaderView: UIView {
             + 50 + 10 // input 1 + spacing
             + 50 + 10 // input 2 + spacing
             + 50 // input 3
-            + 50 // page tabs
+            + 10 // spacing
+            + pageTabHeight // page tabs
     }
     
     let collapseButtonHeight: CGFloat = 40
