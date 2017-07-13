@@ -62,6 +62,7 @@ class AirbnbExploreHeaderView: UIView {
     
     var minHeaderHeight: CGFloat {
         return 20 // status bar
+            + headerInputHeight // input 1
             + pageTabHeight
     }
     var midHeaderHeight: CGFloat {
@@ -246,6 +247,9 @@ class AirbnbExploreHeaderView: UIView {
         let headerBottom = newHeight - pageTabHeight
         
         let midMaxPercentage = (newHeight - midHeaderHeight) / (maxHeaderHeight - midHeaderHeight)
+        if (midMaxPercentage < 0)  {
+            return
+        }
         datePicker.alpha = midMaxPercentage
         
         var datePickerPercentage3 = (headerBottom - guestFilter.frame.origin.y) / guestFilter.frame.height
