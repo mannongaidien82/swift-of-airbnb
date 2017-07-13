@@ -56,8 +56,8 @@ class AirbnbExploreHeaderView: UIView {
             setupPagers()
         }
     }
-    //let pageTabHeight: CGFloat = 50
-    let pageTabHeight: CGFloat = 0
+    let pageTabHeight: CGFloat = 50
+    //let pageTabHeight: CGFloat = 0
     
     let headerInputHeight: CGFloat = 50
     
